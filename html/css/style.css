@@ -64,10 +64,11 @@ a:hover{
     width: 50%;
     flex-direction: column;
     gap: 2.5rem;
+    justify-content: center;
 }
 .titulo{
     font-family: var(--fonte-primaria);
-    font-size: 1.6rem;
+    font-size: 2rem;
 }
 
 .apresentacao-links-titulo{
@@ -88,6 +89,36 @@ a:hover{
 .destaque{
     color: var(--cor-terciaria);
 }
+.conteudo p{
+    font-family: var(--fonte-primaria);
+    font-size: 1.3rem;
+
+}
+.apresentacao-imagem img{
+    width: 25rem;
+    height: 30rem;
+}
+.apresentacao-links-botao1{
+    display: flex;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-primaria);
+    font-size: 1.3rem;
+    border: 0.2rem solid var(--cor-terciaria);
+    border-radius: 0.4rem;
+    padding: 0.8rem;
+    width: 50%;
+    justify-content: center;
+
+
+}
+.fa {
+    display: flex;
+    align-items: center;
+    margin: 4px 10px;
+    color: var(--cor-terciaria);
+}
+
 
 
 .rodape p{
@@ -96,6 +127,8 @@ a:hover{
     justify-content: center;
     padding: 1.5rem;
     background-color: var(--cor-terciaria);
-    color: var(--cor-primairia);  
+    color: var(--cor-primairia); 
+    font-family: var(--fonte-primaria); 
+    font-size: 1.3rem;
 }
 
