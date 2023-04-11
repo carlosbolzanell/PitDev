@@ -45,7 +45,7 @@ header{
     justify-content: space-between;
     width: 7rem;
 }
-a:hover{
+.cabecalho_menu a:hover{
     color: var(--cor-secundaria);
 }
 
@@ -63,9 +63,10 @@ a:hover{
     display: flex;
     width: 50%;
     flex-direction: column;
-    gap: 2.5rem;
+    gap: 2rem;
     justify-content: center;
 }
+
 .titulo{
     font-family: var(--fonte-primaria);
     font-size: 2rem;
@@ -94,29 +95,38 @@ a:hover{
     font-size: 1.3rem;
 
 }
+.apresentacao-imagem{
+    width: 50%;
+}
 .apresentacao-imagem img{
-    width: 25rem;
-    height: 30rem;
+    width: 100%;
 }
 .apresentacao-links-botao1{
     display: flex;
+    gap: 13px;
+    justify-content: center;
     text-decoration: none;
     color: var(--cor-secundaria);
-    font-family: var(--fonte-primaria);
+    font-family: var(--fonte-secundaria);
     font-size: 1.3rem;
-    border: 0.2rem solid var(--cor-terciaria);
-    border-radius: 0.4rem;
-    padding: 0.8rem;
+    font-weight: 500;
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 16px;
+    padding: 16px 30px;
     width: 50%;
-    justify-content: center;
-
+    text-align: center;
 
 }
-.fa {
+.fa-brands {
     display: flex;
     align-items: center;
-    margin: 4px 10px;
     color: var(--cor-terciaria);
+}
+.fa-linkedin-in{
+    margin-bottom:1px;
+}
+.fa-github{
+    margin-bottom: 1px;
 }
 
 
@@ -132,3 +142,9 @@ a:hover{
     font-size: 1.3rem;
 }
 
+@media (max-width: 768px){
+
+    .apresentacao {flex-direction: column-reverse;
+}
+
+}
