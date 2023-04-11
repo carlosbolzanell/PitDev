@@ -144,7 +144,11 @@ header{
 
 @media (max-width: 768px){
 
-    .apresentacao {flex-direction: column-reverse;
-}
+    .apresentacao {
+        flex-direction: column-reverse;
+    }
+    .conteudo{
+        width: auto;
+    }
 
 }
